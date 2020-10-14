@@ -1,0 +1,10 @@
+GET http://localhost:5050/
+
+###
+POST http://localhost:5050/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "eric",
+    "password": "hello123"
+}
